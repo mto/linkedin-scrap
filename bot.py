@@ -77,7 +77,6 @@ def start_bot():
         print('Number of processed companies sofar: ' + str(nbr + nb))
 
 
-'''
 if __name__ == '__main__':
     nbr = 0
     try:
@@ -96,8 +95,8 @@ if __name__ == '__main__':
         fw.write(str(nbr + nb))
         fw.flush()
         print('Number of processed companies sofar: ' + str(nbr + nb))
-'''
 
+'''
 if __name__ == '__main__':
     for i in range(1, 20):
         try:
@@ -109,3 +108,4 @@ if __name__ == '__main__':
             start_bot()
         except Exception as ex:
             print(ex)
+'''
