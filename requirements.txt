@@ -1,0 +1,3 @@
+google==1.9.3
+pyexcel-xlsx==0.4.0
+selenium==3.4.3
